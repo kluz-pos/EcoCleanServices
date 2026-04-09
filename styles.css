@@ -53,7 +53,7 @@ body {
 
 /* ESTILOS DEL LOGO - TAMAÑO AUMENTADO */
 .logo-img {
-    width: 120px;      /* Aumentado de 45px a 70px */
+    width: 145px;      /* Aumentado de 45px a 70px */
     height: 35px;     /* Aumentado de 45px a 70px */
     object-fit: contain;
     border-radius: 12px;
