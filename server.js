@@ -5,7 +5,7 @@ const path = require('path');
 
 const app = express();
 // server.js
-const PORT = process.env.PORT || 3000; // Usa el puerto que asigna Render o el 3000 localmente
+const PORT = process.env.PORT || 3007; // Usa el puerto que asigna Render o el 3007 localmente
 
 app.use(cors());
 app.use(express.json());
