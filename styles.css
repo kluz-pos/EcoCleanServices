@@ -625,10 +625,11 @@ footer {
         flex-direction: column;
     }
     
-    /* Logo responsive más grande en móvil */
+    /*--- Logo responsive más grande en móvil */
     .logo-img {
-        width: 55px;
-        height: 55px;
+    width: 100px;     /* Aumentado de 55px a 100px */
+    height: auto;      /* Altura automática para mantener proporción */
+    max-height: 60px;  /* Altura máxima para no desbordar */
     }
     
     .logo-text {
