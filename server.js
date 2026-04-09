@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000; // Usa el puerto que asigna Render o el 3
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static(__dirname)); // Sirve archivos desde la raíz
 
 const dataDir = path.join(__dirname, 'data');
 if (!fs.existsSync(dataDir)) {
